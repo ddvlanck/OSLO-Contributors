@@ -5,7 +5,7 @@ jobs:
       image: circleci/python
     steps:
       - checkout
-      - $PWD/contributors.sh $PWD/publication.json
+      - run: $PWD/contributors.sh $PWD/publication.json
 workflows:
   version: 2
   get-contributors:
