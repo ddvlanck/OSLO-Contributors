@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  read-stakeholders:
+    docker:
+      image: circleci/python
+    steps:
+      - checkout
+      - $PWD/contributors.sh $PWD/publication.json
+workflows:
+  version: 2
+  get-contributors:
+    jobs:
+      - read-stakeholders
