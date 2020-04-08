@@ -1,7 +1,6 @@
 #!/bin/bash
 
-PUBCONFIG=$2
 ROOTDIR=$1
 
-curl "$PUBCONFIG"
-
+git clone "https://github.com/Informatievlaanderen/OSLO-Generated"
+git checkout "test"

@@ -5,7 +5,7 @@ jobs:
       - image: circleci/python
     steps:
       - checkout
-      - run: bash $PWD/scripts/checkout.sh /tmp/workspace https://raw.githubusercontent.com/Informatievlaanderen/Data.Vlaanderen.be/dev/config/publication.json
+      - run: bash $PWD/scripts/checkout.sh /tmp/workspace
 workflows:
   version: 2
   calculate-contributors:
