@@ -1,0 +1,18 @@
+[
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/infrastructuur/ontwerpstandaard/2020-04-01",
+    "repository": "https://github.com/Informatievlaanderen/OSLOthema-openbaardomein",
+    "branchtag": "master",
+    "name": "infrastructuur-voc",
+    "filename": "config/eap-mapping.json",
+    "navigation": {}
+  },
+  {
+    "urlref": "/doc/vocabularium/openbaardomein/infrastructuur/ontwerpstandaard/2020-04-01",
+    "repository": "https://github.com/ddvlanck/OSLOthema-persoon",
+    "branchtag": "master",
+    "name": "infrastructuur-voc",
+    "filename": "config/eap-mapping.json",
+    "navigation": {}
+  }
+]

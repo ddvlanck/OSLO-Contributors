@@ -1,13 +1,13 @@
 version: 2
 jobs:
-  read-stakeholders:
+  checkout:
     docker:
-      - image: circleci/python
+      - image: circleci/node
     steps:
       - checkout
-      - run: bash $PWD/contributors.sh $PWD/publication.json
+      - run: node $PWD/bin/test.js
 workflows:
   version: 2
-  get-contributors:
+  calculate-contributors:
     jobs:
-      - read-stakeholders
+      - checkout

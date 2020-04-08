@@ -1,0 +1,27 @@
+{
+  "name": "oslo-contributors",
+  "version": "1.0.0",
+  "description": "Small script to determine all contributors to OSLO standards",
+  "main": "contributors.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddvlanck/OSLO-Contributors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddvlanck/OSLO-Contributors/issues"
+  },
+  "homepage": "https://github.com/ddvlanck/OSLO-Contributors#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "fs": "0.0.1-security",
+    "read-excel-file": "^4.0.6",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.3",
+    "simple-git": "^1.132.0"
+  }
+}
