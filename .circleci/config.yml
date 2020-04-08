@@ -2,10 +2,10 @@ version: 2
 jobs:
   checkout:
     docker:
-      - image: circleci/node
+      - image: circleci/python
     steps:
       - checkout
-      - run: node $PWD/bin/test.js
+      - run: bash $PWD/scripts/checkout.sh /tmp/workspace https://raw.githubusercontent.com/Informatievlaanderen/Data.Vlaanderen.be/dev/config/publication.json
 workflows:
   version: 2
   calculate-contributors:
