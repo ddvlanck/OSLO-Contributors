@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ddvlanck/OSLO-Contributors#readme",
   "dependencies": {
+    "@rdfjs/parser-jsonld": "^1.2.0",
     "csvtojson": "^2.0.10",
     "fs": "0.0.1-security",
     "line-reader": "^0.4.0",

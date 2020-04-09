@@ -6,8 +6,23 @@ jobs:
     steps:
       - checkout
       - run: bash $PWD/scripts/checkout.sh /tmp/workspace
+    persist_to_workspace:
+      root: /tmp/workspace
+      paths:
+        - filesToProcess.txt
+  compute-contributors:
+    docker:
+      - image: circleci/node
+    steps:
+      - checkout
+      - attach_workspace:
+          at: /tmp/workspace
+      - run: node $PWD/bin/contributors.js /tmp/workspace/filesToProcess.txt
 workflows:
   version: 2
   calculate-contributors:
     jobs:
       - checkout
+      - compute-contributors:
+          requires:
+            - checkout

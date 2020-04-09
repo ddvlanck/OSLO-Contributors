@@ -1,5 +1,5 @@
 const lineReader = require('line-reader');
-const Converter = require('../lib/Converter');
+const Processor = require('../lib/Processor');
 
 try {
     if (process.argv.length !== 3) {
@@ -7,12 +7,16 @@ try {
         process.exit(1);
     }
 
-    const stakeholdersList = process.argv[2];
+
+    //TODO: process filesToProces.txt file
+
+    const filesToProcessList = process.argv[2];
     loadComputingInterfaces();
 
-    lineReader.eachLine(stakeholdersList, function(file) {
-        const name = file.split('/')[4];
-        Converter.processFile(file, name)
+    lineReader.eachLine(filesToProcessList, function(path) {
+        if(path != ''){
+            Processor.processFile(path)
+        }
     });
 
 
