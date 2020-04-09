@@ -13,9 +13,11 @@ try {
     const filesToProcessList = process.argv[2];
     loadComputingInterfaces();
 
-    lineReader.eachLine(filesToProcessList, function(path) {
-        if(path != ''){
-            Processor.processFile(path)
+    lineReader.eachLine(filesToProcessList, function(path, last) {
+        if(last){
+            Processor.processJSONFile(path, true)
+        } else {
+            Processor.processJSONFile(path, false);
         }
     });
 
@@ -25,6 +27,7 @@ try {
 }
 
 function loadComputingInterfaces(){
-    let Interface = require('../lib/Interfaces/PeopleInterface');
+    //let Interface = require('../lib/Interfaces/PeopleInterface');
+    let Interface = require('../lib/Interfaces/StatisticsComputer');
     new Interface();
 }
