@@ -6,6 +6,9 @@ jobs:
     steps:
       - checkout
       - run: bash $PWD/scripts/checkout.sh /tmp/workspace
+      - run:
+          name: Show all files that will be processed
+          command: cat /tmp/workspace/filesToProcess.txt
     persist_to_workspace:
       root: /tmp/workspace
       paths:
@@ -17,6 +20,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: /tmp/workspace
+      - run: npm install
       - run: node $PWD/bin/contributors.js /tmp/workspace/filesToProcess.txt
 workflows:
   version: 2
