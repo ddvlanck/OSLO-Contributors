@@ -1,0 +1,45 @@
+{
+    "@context": {
+        "schema": "https://schema.org/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "name": "schema:name",
+        "numberOfPeopleContributors": "rdfs:label",
+        "contributors": {
+            "@id": "schema:name",
+            "@container": "@list"
+        }
+    },
+    "@type": "schema:Report",
+    "contributors": [
+        {
+            "@type": "schema:Organization",
+            "@id": "http://www.pwc.be",
+            "name": "PwC",
+            "numberOfPeopleContributors": 3
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://overheid.vlaanderen.be/",
+            "name": "Informatie Vlaanderen",
+            "numberOfPeopleContributors": 6
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://bosa.belgium.be/",
+            "name": "BOSA",
+            "numberOfPeopleContributors": 2
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://www.scip-cspi.be/",
+            "name": "CSPI",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://overheid.vlaanderen.be/informatie-vlaanderen",
+            "name": "Informatie Vlaanderen",
+            "numberOfPeopleContributors": 1
+        }
+    ]
+}

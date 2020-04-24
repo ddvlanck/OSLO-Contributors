@@ -1,0 +1,87 @@
+{
+    "@context": {
+        "schema": "https://schema.org/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "name": "schema:name",
+        "numberOfPeopleContributors": "rdfs:label",
+        "contributors": {
+            "@id": "schema:name",
+            "@container": "@list"
+        }
+    },
+    "@type": "schema:Report",
+    "contributors": [
+        {
+            "@type": "schema:Organization",
+            "@id": "https://www.wonenvlaanderen.be",
+            "name": "Wonen-Vlaanderen",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://overheid.vlaanderen.be/informatie-vlaanderen",
+            "name": "Informatie Vlaanderen",
+            "numberOfPeopleContributors": 8
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://www.vmm.be",
+            "name": "VMM",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "http://idlab.ugent.be",
+            "name": "imec - UGent",
+            "numberOfPeopleContributors": 3
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://www.telenet.be",
+            "name": "Telenet",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://www.vlaamsbrabant.be",
+            "name": "Provincie Vlaams-Brabant",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://www.fednot.be",
+            "name": "Fednot",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://www.antwerpen.be",
+            "name": "Stad Antwerpen",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://www.leuven.be",
+            "name": "Stad Leuven",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://stad.gent",
+            "name": "Stad Gent",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "http://tenforce.com",
+            "name": "Tenforce",
+            "numberOfPeopleContributors": 1
+        },
+        {
+            "@type": "schema:Organization",
+            "@id": "https://www.vmsw.be",
+            "name": "VMSW",
+            "numberOfPeopleContributors": 1
+        }
+    ]
+}

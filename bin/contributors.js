@@ -13,16 +13,16 @@ try {
     const filesToProcessList = process.argv[2];
     loadComputingInterfaces();
 
-    lineReader.eachLine(filesToProcessList, function(path, last) {
+    /*lineReader.eachLine(filesToProcessList, function(path, last) {
         //console.log('Processing this file:' + path);
         if(last){
             Processor.processJSONFile(path, true)
         } else {
             Processor.processJSONFile(path, false);
         }
-    });
+    });*/
 
-    //OldVersionProcessor.processFile('https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/adres/voc/adres.ttl');
+    //OldVersionProcessor.processFile('https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/weg/voc/weg.ttl');
 
 } catch (e) {
     console.error(e);
