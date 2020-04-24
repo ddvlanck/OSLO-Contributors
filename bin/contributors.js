@@ -1,5 +1,6 @@
 const lineReader = require('line-reader');
 const Processor = require('../lib/Processor');
+const OldVersionProcessor = require('../lib/OldFileProcessor');
 
 try {
     if (process.argv.length !== 3) {
@@ -8,12 +9,12 @@ try {
     }
 
 
-    //TODO: process filesToProces.txt file
-
+    //TODO: enable this when working normally
     const filesToProcessList = process.argv[2];
     loadComputingInterfaces();
 
     lineReader.eachLine(filesToProcessList, function(path, last) {
+        //console.log('Processing this file:' + path);
         if(last){
             Processor.processJSONFile(path, true)
         } else {
@@ -21,6 +22,7 @@ try {
         }
     });
 
+    //OldVersionProcessor.processFile('https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-gebouwEnAdres/adres/voc/adres.ttl');
 
 } catch (e) {
     console.error(e);
