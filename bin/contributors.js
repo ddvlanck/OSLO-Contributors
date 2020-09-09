@@ -31,7 +31,7 @@ try {
     console.error(e);
 }
 
-async function readConfig(json){
+async function readConfig(json, path){
     await Promise.all(json.map(object => Processor.processJSONFile(object)));
-    Processor.createReport(path, output);
+    Processor.createReport(path);
 }
