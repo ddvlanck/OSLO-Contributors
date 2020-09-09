@@ -1,0 +1,290 @@
+[
+  {
+    "naam" : "Vocabularium Persoon",
+    "stakeholders" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/persoon/ontwerpdocument/2020-01-06/all-persoon.jsonld"
+  },
+  {
+    "naam" : "Applicatieprofiel Persoon Basis",
+    "stakeholders" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/persoon-basis/ontwerpdocument/2020-01-06/all-persoon-basis.jsonld"
+  },
+  {
+    "naam": "Vocabularium Weg",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/weg/ontwerpdocument/2020-01-06/all-weg.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Wegenregister",
+    "stakeholders" : "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/wegenregister/ontwerpdocument/2020-01-06/all-wegenregister.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Dienst Transactiemodel",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/dienst-transactiemodel/ontwerpdocument/2019-02-07/all-dienst-transactiemodel.jsonld"
+  },
+  {
+    "naam": "Vocablarium Transitie",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/transactie/ontwerpdocument/2020-01-06/all-transactie.jsonld"
+  },
+  {
+    "naam": "Vocabularium Dienst",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/dienst/ontwerpdocument/2020-01-06/all-dienst.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Dienstencataloog",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/dienstencataloog/ontwerpdocument/niet-bepaald/all-dienstencataloog.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Vlaamse Codex",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/vlaamse-codex/ontwerpdocument/2020-01-06/all-vlaamse-codex.jsonld"
+  },
+  {
+    "naam" : "Vocabularium Organisatie",
+    "stakeholders": null
+  },
+  {
+    "naam" : "Applicatieprofiel Organisatie Basis",
+    "stakeholders": null
+  },
+  {
+    "naam": "Applicatieprofiel Logies Basis",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/logies-basis/standaard/2019-03-14/all-logies-basis.jsonld"
+  },
+  {
+    "naam": "Vocabularium Logies",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/logies/standaard/2019-03-14/all-logies.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Adresregister",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/adressenregister/ontwerpdocument/niet-bepaald/adressenregister.jsonld"
+  },
+  {
+    "naam": "Vocabularium Adres",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/adres/ontwerpdocument/2020-01-06/all-adres.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Gebouwenregister",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/gebouwenregister/ontwerpdocument/2020-01-06/all-gebouwenregister.jsonld"
+  },
+  {
+    "naam": "Vocabularium Gebouw",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/gebouw/ontwerpdocument/2020-01-06/all-gebouw.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Inname Openbaar Domein",
+    "stakeholders": null
+  },
+  {
+    "naam": "Applicatieprofiel Notificatie Basis",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/notificatie-basis/ontwerpdocument/2020-01-06/all-notificatie-basis.jsonld"
+  },
+  {
+    "naam": "Vocbularium Notificatie",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/notificatie/ontwerpdocument/2020-01-06/all-notificatie.jsonld"
+  },
+  {
+    "naam": "Vocabularium Melding",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/melding/ontwerpdocument/2020-01-06/all-melding.jsonld"
+  },
+  {
+    "naam" : "Applicatieprofiel Issue Tracking Voor Burgers en Organisaties",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/issue-tracking-voor-burgers-en-organisaties/ontwerpdocument/2020-01-06/all-issue-tracking-voor-burgers-en-organisaties.jsonld"
+  },
+  {
+    "naam" : "Applicatieprofiel Generieke Terugmeldfaciliteit",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/generieke-terugmeldfaciliteit/ontwerpdocument/2020-01-06/all-generieke-terugmeldfaciliteit.jsonld"
+  },
+  {
+    "naam" : "Applicatieprofiel Dossier",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-06-01/all-dossier-ap.jsonld"
+  },
+  {
+    "naam" : "Vocabularium Dossier",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/dossier/erkendestandaard/2020-06-18/all-dossier-voc-20200618.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Besluit Subsidies",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/besluit-subsidie/ontwerpstandaard/2019-12-02/all-besluit-subsidie-ap.jsonld"
+  },
+  {
+    "naam": "Vocabularium Subsidies",
+    "stakeholders": null
+  },
+  {
+    "naam": "Applicatieprofiel Mobiliteit: Trips & Aanbod",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23/all-mobiliteit-trips-en-aanbod-ap.jsonld"
+  },
+  {
+    "naam": "Vocabularium Mobiliteit: Trips & Aanbod",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/mobiliteit-trips-en-aanbod/erkendestandaard/2020-04-23/all-mobiliteit-trips-en-aanbod-voc.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel DCAT-AP Vlaanderen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/DCAT-AP-VL/standaard/2019-06-13/all-DCAT-AP-VL.jsonld"
+  },
+  {
+    "naam": "Vocabularium Toestemming",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/toestemming/ontwerpdocument/2020-01-06/all-toestemming.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Contactvoorkeuren",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/contactvoorkeuren/ontwerpdocument/2020-01-06/all-contactvoorkeuren.jsonld"
+  },
+  {
+    "naam": "Vocabularium Perceel",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/perceel/kandidaatstandaard/2020-04-23/all-perceel.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Percelen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/perceel/kandidaatstandaard/2020-04-23/all-perceel.jsonld"
+  },
+  {
+    "naam": "Vocabularium Bedrijventerrein",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/bedrijventerrein/kandidaatstandaard/2020-04-23/all-bedrijventerrein.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Bedrijventerreinen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/bedrijventerrein/kandidaatstandaard/2020-04-23/all-bedrijventerrein.jsonld"
+  },
+  {
+    "naam": "Vocabularium Mandaat",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/mandaat/ontwerpdocument/2020-01-06/all-mandaat.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Mandatendatabank",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/mandatendatabank/ontwerpdocument/2018-07-20/all-mandatendatabank.jsonld"
+  },
+  {
+    "naam": "Vocabularium Besluit",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/besluit/ontwerpdocument/2020-01-06/all-besluit.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Besluit Publicatie",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/besluit-publicatie/ontwerpdocument/2020-01-06/all-besluit-publicatie.jsonld"
+  },
+  {
+    "naam": "Vocabularium Bestuur",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/bestuur/ontwerpdocument/niet-bepaald/all-bestuur.jsonld"
+  },
+  {
+    "naam": "Vocabularium Begraafplaats",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/begraafplaats/kandidaatstandaard/2020-06-18/all-begraafplaats-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Begroeid Voorkomen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/begroeidvoorkomen/kandidaatstandaard/2020-06-18/all-begroeid-voorkomen-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Gebied",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/gebied/kandidaatstandaard/2020-06-18/all-gebied-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Infrastructuur",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/infrastructuur/kandidaatstandaard/2020-06-18/all-infrastructuur-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Openbaar Domein",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/kandidaatstandaard/2020-06-18/all-openbaar-domein-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Onbegroeid Voorkomen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/onbegroeidvoorkomen/kandidaatstandaard/2020-06-18/all-onbegroeid-voorkomen-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Terreindeel",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/terreindeel/kandidaatstandaard/2020-06-18/all-terreindeel-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Vegetatie",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/vegetatie/kandidaatstandaard/2020-06-18/all-vegetatie-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Waterdeel",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/waterdeel/kandidaatstandaard/2020-06-18/all-waterdeel-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Watervoorkomen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/openbaardomein/watervoorkomen/kandidaatstandaard/2020-06-18/all-watervoorkomen-voc.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Begraafplaatsen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/begraafplaatsen/kandidaatstandaard/2020-06-18/all-begraafplaatsen-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Begraafplaatsenbeheer",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/begraafplaatsenbeheer/kandidaatstandaard/2020-06-18/all-begraafplaatsenbeheer-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Begroeid Voorkomen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/begroeid-voorkomen/kandidaatstandaard/2020-06-18/all-begroeid-voorkomen-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Gebieden",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/gebieden/kandidaatstandaard/2020-06-18/all-gebieden-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Infrastructuurelementen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/infrastructuurelementen/kandidaatstandaard/2020-06-18/all-infrastructuurelementen-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Openbaar Domein",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/openbaar-domein/kandidaatstandaard/2020-06-18/all-openbaar-domein-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Onbegroeid Voorkomen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/onbegroeid-voorkomen/kandidaatstandaard/2020-06-18/all-onbegroeid-voorkomen-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Terreindelen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/terreindelen/kandidaatstandaard/2020-06-18/all-terreindelen-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Vegetatie-elementen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/vegetatie-elementen/kandidaatstandaard/2020-06-18/all-vegetatie-elementen-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Waterdelen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/waterdelen/kandidaatstandaard/2020-06-18/all-waterdelen-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Watervoorkomen",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/watervoorkomen/kandidaatstandaard/2020-06-18/all-watervoorkomen-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Verkeersborden",
+    "stakeholders": null
+  },
+  {
+    "naam": "Applicatieprofiel Besluitvorming",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/besluitvorming/erkendestandaard/2020-06-18/all-besluitvorming-ap.jsonld"
+  },
+  {
+    "naam": "Vocabularium Besluitvorming",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/besluitvorming/erkendestandaard/2020-06-18/all-besluitvorming-voc.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Cultureel Erfgoed Event",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/cultureel-erfgoed-event/kandidaatstandaard/2020-07-17/all-cultureel-erfgoed-event-ap.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Cultureel Erfgoed Object",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/cultureel-erfgoed-object/kandidaatstandaard/2020-07-17/all-cultureel-erfgoed-object-ap.jsonld"
+  },
+  {
+    "naam": "Vocabularium Cultureel Erfgoed",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/cultureel-erfgoed/kandidaatstandaard/2020-07-17/all-cultureel-erfgoed-voc.jsonld"
+  },
+  {
+    "naam": "Applicatieprofiel Besluit Mobiliteit",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/besluit-mobiliteit/ontwerpdocument/2018-09-30/all-besluit-mobiliteit.jsonld"
+  },
+  {
+    "naam": "Vocabularium Mobiliteit",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/mobiliteit/ontwerpdocument/2018-09-30/all-mobiliteit.jsonld"
+  },
+  {
+    "naam": "Vocabularium Netwerk",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/netwerk/erkendestandaard/2020-04-23/all-netwerk-voc.jsonld"
+  },
+  {
+    "naam": "Vocabularium Transportnetwerk",
+    "stakeholders": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/transportnetwerk/erkendestandaard/2020-04-23/all-transportnetwerk-voc.jsonld"
+  }
+]

@@ -1,35 +1,35 @@
-const lineReader = require('line-reader');
 const Processor = require('../lib/Processor');
-const OldVersionProcessor = require('../lib/OldFileProcessor');
+const program = require('commander');
 
 try {
-    if (process.argv.length !== 3) {
-        console.error('Please provide one publication file');
-        process.exit(1);
-    }
+    program
+        .version('1.0.0')
+        .usage('calculates statistics for OSLO standards')
+        .option('-f, --file <path>', 'file path of the JSON data')
+        .option('-o, --output <path>', 'path to which result will be written');
 
+    program.on('--help', () => {
+        console.log('');
+        console.log('This program is created for the Open Standards for Linked Organizations team.');
+        console.log("It's used to calculate statistics for every OSLO standard, to display on our standards register");
+        console.log("The program can be executed as follows:");
+        console.log("node contributors.js -f <file> -o <output>");
+        console.log("\t<file> can be the path of the JSON data");
+        console.log("\t<output> can be the path to which the result will be written.");
+    });
 
-    //TODO: enable this when working normally
-    const filesToProcessList = process.argv[2];
-    loadComputingInterfaces();
+    program.parse(process.argv);
 
-    /*lineReader.eachLine(filesToProcessList, function(path, last) {
-        //console.log('Processing this file:' + path);
-        if(last){
-            Processor.processJSONFile(path, true)
-        } else {
-            Processor.processJSONFile(path, false);
-        }
-    });*/
+    const config = program.file ? require(program.file) : require('../config.json');
+    readConfig(config);
 
-    //OldVersionProcessor.processFile('https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-weg/weg/voc/weg.ttl');
+    //TODO: pass path for output
 
 } catch (e) {
     console.error(e);
 }
 
-function loadComputingInterfaces(){
-    //let Interface = require('../lib/Interfaces/PeopleInterface');
-    let Interface = require('../lib/Interfaces/StatisticsComputer');
-    new Interface();
+async function readConfig(json){
+    await Promise.all(json.map(object => Processor.processJSONFile(object)));
+    Processor.createReport();
 }
