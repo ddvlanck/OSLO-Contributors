@@ -23,7 +23,7 @@ try {
     const config = program.file ? require(program.file) : require('../config.json');
     const output = program.output ? program.output : './statistics.json';
 
-    readConfig(config);
+    readConfig(config, output);
 
     //TODO: pass path for output
 
@@ -33,5 +33,5 @@ try {
 
 async function readConfig(json){
     await Promise.all(json.map(object => Processor.processJSONFile(object)));
-    Processor.createReport(path);
+    Processor.createReport(path, output);
 }
