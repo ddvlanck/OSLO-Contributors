@@ -25,8 +25,6 @@ try {
 
     readConfig(config, output);
 
-    //TODO: pass path for output
-
 } catch (e) {
     console.error(e);
 }
