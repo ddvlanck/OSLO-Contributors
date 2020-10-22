@@ -23,13 +23,19 @@ try {
     const config = program.file ? require(program.file) : require('../config.json');
     const output = program.output ? program.output : './statistics.json';
 
-    readConfig(config, output);
+    readConfig(config).then( () => {
+        Processor.createReport(output);
+    });
 
 } catch (e) {
     console.error(e);
 }
 
-async function readConfig(json, path){
+/*async function readConfig(json, path){
     await Promise.all(json.map(object => Processor.processJSONFile(object)));
     Processor.createReport(path);
+}*/
+
+function readConfig(json){
+    return Promise.all(json.map(object => Processor.processJSONFile(object)));
 }
