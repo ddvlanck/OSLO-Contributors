@@ -24,7 +24,7 @@
     "fs": "0.0.1-security",
     "line-reader": "^0.4.0",
     "node-fetch": "^2.6.1",
-    "read-excel-file": "^4.0.6",
+    "read-excel-file": "^4.1.0",
     "rimraf": "^3.0.2",
     "shelljs": "^0.8.3",
     "simple-git": "^1.132.0",
